@@ -1,6 +1,7 @@
 import './App.css';
 import BasicButtons from './buttons';
-import InputBox from './inputbox';
+import InputBox from inputBox;
+import React from 'react';
 
 function App() {
   const [inputBox, setInputBox] = useState({
